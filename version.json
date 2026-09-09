@@ -1,8 +1,30 @@
 ﻿{
     "build":  1,
-    "version":  "1.0.0",
-    "download_url":  "https://github.com/VladislavDelon/THE-SYSTEM-CRM-Releases/raw/main/THE-SYSTEM-CRM-Setup-1.0.0.exe",
-    "installer":  "THE-SYSTEM-CRM-Setup-1.0.0.exe",
-    "release_notes":  "Windows installer v1.0.0",
-    "date":  "2026-09-09"
+    "version":  "1.0.1",
+    "download_url":  "https://github.com/VladislavDelon/THE-SYSTEM-CRM-Releases/raw/main/THE-SYSTEM-CRM-Setup-1.0.1.exe",
+    "installer":  "THE-SYSTEM-CRM-Setup-1.0.1.exe",
+    "release_notes":  "Релиз 1.0.1: автоматические обновления, раздел Новости и улучшения стабильности.",
+    "date":  "2026-09-09",
+    "notes":  [
+                  {
+                      "type":  "new",
+                      "text":  "Автоматическая проверка и скачивание обновлений прямо из программы"
+                  },
+                  {
+                      "type":  "new",
+                      "text":  "Раздел «Новости → Обновления программы» с информацией о последней версии"
+                  },
+                  {
+                      "type":  "added",
+                      "text":  "В настройках показывается текущая версия и переключатель автообновления"
+                  },
+                  {
+                      "type":  "added",
+                      "text":  "RELEASE_NOTES.json для управления текстом новостей перед сборкой"
+                  },
+                  {
+                      "type":  "fixed",
+                      "text":  "Улучшена работа make-release.ps1: форс-пуш исходников и расширенный version.json"
+                  }
+              ]
 }
